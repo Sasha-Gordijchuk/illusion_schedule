@@ -1,0 +1,125 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.modal-content {
+  background: #fff;
+  color: #0a1931;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 10000;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0a1931;
+  color: aliceblue;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.modal-input-container {
+  padding: 8px;
+}
+
+.modal-input-group {
+  display: flex;
+  gap: 8px;
+}
+
+.modal-input-container input[type="number"] {
+  flex-basis: 30%;
+}
+
+.modal-match-info label {
+  display: block;
+  font-size: 1.1em;
+  text-align: left;
+  color: #0a1931;
+  margin-left: 16px;
+}
+
+.modal-input-container select,
+.modal-input-container input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #0a1931;
+  background-color: #0a1931;
+  color: aliceblue;
+  font-size: 1em;
+}
+
+.modal-input-container:not(:last-child) {
+  border-bottom: 2px solid #60728e;
+}
+
+.team-result {
+  display: flex;
+  gap: 8px;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.modal-save-btn,
+.modal-close-btn,
+.modal-link {
+  padding: 10px 20px;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-save-btn {
+  background-color: #116415;
+}
+
+.modal-close-btn {
+  background-color: #861313;
+}
+
+.modal-link {
+  text-decoration: none;
+  background-color: #0a1931;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-content {
+    min-width: 90%;
+  }
+
+  .modal-input-container {
+    padding: 6px;
+  }
+
+  .teams {
+    flex-direction: column;
+  }
+
+  .teams .team-result input[type="number"] {
+    order: 1;
+  }
+}

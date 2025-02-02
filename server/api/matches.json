@@ -1,0 +1,548 @@
+[
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "whoisTeam",
+    "time": "22:00",
+    "result": {
+      "home": 1,
+      "away": 2
+    },
+    "video": "",
+    "id": "6ffbf3ef-2f7b-4a3e-b0ab-9acb0734e46f",
+    "date": "21/01"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "Nexus Esport",
+    "time": "22:25",
+    "result": {
+      "home": 2,
+      "away": 4
+    },
+    "video": "",
+    "id": "58dd843f-12fc-4287-b592-7a1649f69464",
+    "date": "21/01"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "FC SKIF",
+    "awayTeam": "Illusion",
+    "time": "22:00",
+    "result": {
+      "home": 1,
+      "away": 1
+    },
+    "video": "",
+    "id": "250fa947-734b-41e3-8311-f4ec34740b90",
+    "date": "22/01"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Ukraine",
+    "awayTeam": "Illusion",
+    "time": "22:25",
+    "result": {
+      "home": 2,
+      "away": 0
+    },
+    "video": "",
+    "id": "55c1b951-8398-4c1e-849c-6cae2afa5650",
+    "date": "22/01"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "FC Bastion",
+    "time": "22:00",
+    "result": {
+      "home": 4,
+      "away": 0
+    },
+    "video": "",
+    "id": "260f0100-12a9-4f28-8e0f-f50e1efce45c",
+    "date": "23/01"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "VFC Crystall",
+    "awayTeam": "Illusion",
+    "time": "22:25",
+    "result": {
+      "home": 2,
+      "away": 4
+    },
+    "video": "",
+    "id": "b2b21092-7219-4e22-ba4c-c0a29981eac9",
+    "date": "23/01"
+  },
+  {
+    "league": "UCFL Cup",
+    "homeTeam": "Illusion",
+    "awayTeam": "Steel Will",
+    "time": "22:00",
+    "result": {
+      "home": 2,
+      "away": 1
+    },
+    "video": "",
+    "id": "3c24480e-a026-4fef-81e0-850be5028310",
+    "date": "27/01"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "GloryUA",
+    "awayTeam": "Illusion",
+    "time": "22:25",
+    "result": {
+      "home": 1,
+      "away": 0
+    },
+    "video": "",
+    "id": "7c94e3e5-7bd9-4afb-acc3-75111d6a67ce",
+    "date": "28/01"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "FC Arsenal Kyiv",
+    "awayTeam": "Illusion",
+    "time": "22:00",
+    "result": {
+      "home": 0,
+      "away": 0
+    },
+    "video": "",
+    "id": "493906eb-2e30-4306-a4cc-b3b33eb30749",
+    "date": "29/01"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Galician Lions",
+    "awayTeam": "Illusion",
+    "time": "22:25",
+    "result": {
+      "home": 2,
+      "away": 2
+    },
+    "video": "",
+    "id": "57192e6f-5331-4974-9c97-e295bdca046b",
+    "date": "29/01"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "Eclipse eSport",
+    "time": "21:30",
+    "result": {
+      "home": 1,
+      "away": 6
+    },
+    "video": "",
+    "id": "e9b4b2f1-8ab8-460f-a282-f2f6ea2aa3b3",
+    "date": "30/01"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "Spartans SPR",
+    "time": "22:00",
+    "result": {
+      "home": 5,
+      "away": 1
+    },
+    "video": "",
+    "id": "94124f1e-81ad-4f9f-9659-c78c56b338af",
+    "date": "30/01"
+  },
+  {
+    "league": "ESUL",
+    "homeTeam": "Illusion",
+    "awayTeam": "VFC KRYVBASS",
+    "time": "20:50",
+    "result": null,
+    "video": "",
+    "id": "4a9a1157-2cd1-433a-98b2-f28a8422888f",
+    "date": "03/02"
+  },
+  {
+    "league": "UCFL Cup",
+    "homeTeam": "Illusion",
+    "awayTeam": "Nexus Esport",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "f9af3989-5f60-4187-b9e3-df8ed934f47a",
+    "date": "03/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Steel Will",
+    "awayTeam": "Illusion",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "02e22bc0-a49c-4d09-9511-0628f8b76c98",
+    "date": "04/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Furia Esports",
+    "awayTeam": "Illusion",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "e199e2d4-4c54-4537-8b3a-027230525ec3",
+    "date": "04/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "Batalion Monaco",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "f0f8a69e-c29b-442a-8167-e73aff313a73",
+    "date": "05/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "VFC Odessa",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "51d6afc5-9bcc-411d-a211-e21401a12b20",
+    "date": "05/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "CFC Dnipro",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "78c64fdb-0209-4b20-9902-64ba9c1e62e2",
+    "date": "06/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "VFC Sanctuary",
+    "awayTeam": "Illusion",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "3ee73b5c-4d69-4e16-9e63-6ccc81ce9be0",
+    "date": "06/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "VFC Miami Kyiv",
+    "time": "22:45",
+    "result": null,
+    "video": "",
+    "id": "439c0151-225a-44eb-a5a3-7af00640dad1",
+    "date": "06/02"
+  },
+  {
+    "league": "ESUL",
+    "homeTeam": "Illusion",
+    "awayTeam": "Batalion Monaco",
+    "time": "21:15",
+    "result": null,
+    "video": "",
+    "id": "96314bcf-b1f6-4bfa-b63f-dc8989349ab9",
+    "date": "07/02"
+  },
+  {
+    "league": "ESUL",
+    "homeTeam": "Illusion",
+    "awayTeam": "VFC Odessa",
+    "time": "21:40",
+    "result": null,
+    "video": "",
+    "id": "6f26da0c-b218-4070-b8cd-8bd375f48f77",
+    "date": "10/02"
+  },
+  {
+    "league": "ESUL",
+    "homeTeam": "Nexus Esport",
+    "awayTeam": "Illusion",
+    "time": "22:05",
+    "result": null,
+    "video": "",
+    "id": "438328ee-32cf-4579-890a-75336113d751",
+    "date": "14/02"
+  },
+  {
+    "league": "ESUL",
+    "homeTeam": "Illusion",
+    "awayTeam": "Furia Esports",
+    "time": "21:15",
+    "result": null,
+    "video": "",
+    "id": "13625be6-463d-4850-afcd-c0cbe1202bae",
+    "date": "17/02"
+  },
+  {
+    "league": "UCFL Cup",
+    "homeTeam": "Furia Esports",
+    "awayTeam": "Illusion",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "0d9c49b2-05fd-466c-abb7-f8d9359a81a5",
+    "date": "17/02"
+  },
+  {
+    "league": "UCFL Cup",
+    "homeTeam": "FC SKIF",
+    "awayTeam": "Illusion",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "d00d8034-3c95-427b-9f59-cbc02495cdbd",
+    "date": "17/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "whoisTeam",
+    "awayTeam": "Illusion",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "8bd38df1-eba9-4983-8fe1-18aea9e3969f",
+    "date": "18/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Nexus Esport",
+    "awayTeam": "Illusion",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "18f9846a-7c43-48a3-b2ff-0dbe754b4320",
+    "date": "18/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "FC SKIF",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "38d460cd-acfa-4428-95aa-3dda601ff606",
+    "date": "19/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "Ukraine",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "7a98e4c3-84b1-466e-ae93-1801d841f741",
+    "date": "19/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "FC Bastion",
+    "awayTeam": "Illusion",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "636f87c1-9a43-4a89-b449-a569608cadaa",
+    "date": "20/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "VFC Crystall",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "8b7cfb70-e5a3-4765-9e43-c4ff0fd36e36",
+    "date": "20/02"
+  },
+  {
+    "league": "ESUL",
+    "homeTeam": "Boars Gaming",
+    "awayTeam": "Illusion",
+    "time": "21:40",
+    "result": null,
+    "video": "",
+    "id": "af420242-6813-494a-accf-3024c4d31512",
+    "date": "24/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Eclipse eSport",
+    "awayTeam": "Illusion",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "dd70c81c-d607-416a-8e1d-21910d53e8aa",
+    "date": "25/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "GloryUA",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "daf721e0-3fdb-45bc-b269-764882dbcabe",
+    "date": "25/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "FC Arsenal Kyiv",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "ed9f8570-ec98-47d8-94bd-81c396e5b7be",
+    "date": "26/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "Galician Lions VFC",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "8264942d-4a3e-4e22-a0a0-e6da0d4d2dc8",
+    "date": "26/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Spartans SPR",
+    "awayTeam": "Illusion",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "51d66a3d-f415-4e44-9fc9-de7a0f572697",
+    "date": "27/02"
+  },
+  {
+    "league": "ESUL",
+    "homeTeam": "VFC KRYVBASS",
+    "awayTeam": "Illusion",
+    "time": "21:15",
+    "result": null,
+    "video": "",
+    "id": "80e61477-1c10-4905-98b3-7b4d009a45d7",
+    "date": "28/02"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "Steel Will",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "015f66e8-2bb0-424c-9569-06875acf2a38",
+    "date": "03/03"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "Furia Esports",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "029759c5-c352-4134-8e88-84d4b3b86b81",
+    "date": "03/03"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Batalion Monaco",
+    "awayTeam": "Illusion",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "cce5d67e-6782-4ac2-ab45-a14bfcedad8e",
+    "date": "05/03"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "VFC ODESSA",
+    "awayTeam": "Illusion",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "6bf1735d-3894-4632-9d4c-52de7f59c385",
+    "date": "05/03"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "CFC Dnipro",
+    "awayTeam": "Illusion",
+    "time": "22:00",
+    "result": null,
+    "video": "",
+    "id": "45d0021b-f520-496b-adcb-2648575e25ef",
+    "date": "06/03"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "VFC Sanctuary",
+    "time": "22:25",
+    "result": null,
+    "video": "",
+    "id": "135c45e9-ee4c-476a-8372-6512670e1cc6",
+    "date": "06/03"
+  },
+  {
+    "league": "UCFL League",
+    "homeTeam": "Illusion",
+    "awayTeam": "VFC Miami Kyiv",
+    "time": "22:45",
+    "result": null,
+    "video": "",
+    "id": "e39a9912-5069-420c-a91e-9f18de012c82",
+    "date": "06/03"
+  },
+  {
+    "league": "ESUL",
+    "homeTeam": "VFC ODESSA",
+    "awayTeam": "Illusion",
+    "time": "21:15",
+    "result": null,
+    "video": "",
+    "id": "1565a92d-fc72-47be-a904-d753c9d5406c",
+    "date": "07/03"
+  },
+  {
+    "league": "ESUL",
+    "homeTeam": "Illusion",
+    "awayTeam": "Nexus Esport",
+    "time": "21:15",
+    "result": null,
+    "video": "",
+    "id": "e9ae182b-db7c-4971-9fc6-570d2f54f7dd",
+    "date": "10/03"
+  },
+  {
+    "league": "ESUL",
+    "homeTeam": "Furia Esports",
+    "awayTeam": "Illusion",
+    "time": "22:05",
+    "result": null,
+    "video": "",
+    "id": "2d3ba1c1-85e7-4785-bd9f-9727ce89559b",
+    "date": "14/03"
+  },
+  {
+    "league": "ESUL",
+    "homeTeam": "Illusion",
+    "awayTeam": "Boars Gaming",
+    "time": "21:40",
+    "result": null,
+    "video": "",
+    "id": "d8bef247-1d23-467f-b8d0-d860d6f23b2e",
+    "date": "21/03"
+  }
+]
