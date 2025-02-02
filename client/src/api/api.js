@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = "https://illusionschedule-production.up.railway.app";
 
 export const fetchMatches = async () => {
   const response = await axios.get("/matches");
