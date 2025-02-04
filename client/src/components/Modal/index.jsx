@@ -55,7 +55,7 @@ const Modal = ({ match, date, onClose }) => {
 
   const handleSave = async () => {
     try {
-      const response = await updateMatch(match.id, {
+      const updatedMatch = {
         league: editedMatch.league,
         homeTeam: editedMatch.homeTeam,
         awayTeam: editedMatch.awayTeam,
@@ -66,7 +66,13 @@ const Modal = ({ match, date, onClose }) => {
         },
         video: editedMatch.video,
         date: `${editedMatch.day}/${editedMatch.month}`,
-      });
+      };
+
+      if (updatedMatch.result.home === -1 || updatedMatch.result.away === -1) {
+        updatedMatch.result = null;
+      }
+
+      const response = await updateMatch(match.id, updatedMatch);
 
       onClose(response);
     } catch (error) {
