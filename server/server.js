@@ -4,10 +4,14 @@ const fs = require("fs");
 const moment = require("moment");
 const { v4: uuidv4 } = require("uuid");
 const cors = require("cors");
+const axios = require("axios");
 
 const app = express();
 const PORT = 3001;
 const PASSWORD = process.env.ACCESS_PASSWORD;
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
+const BIN_ID = process.env.BIN_ID;
+const API_KEY = process.env.API_KEY;
 
 app.use(cors());
 app.use(express.json());
@@ -22,9 +26,55 @@ const readMatches = () => {
   }
 };
 
+const getMatchesFromApi = async () => {
+  try {
+    const response = await axios.get(`https://api.jsonbin.io/v3/b/${BIN_ID}`, {
+      headers: { "X-Master-Key": API_KEY },
+    });
+
+    const matchesData = response.data.record;
+
+    fs.writeFileSync(
+      "api/matches.json",
+      JSON.stringify(matchesData, null, 2),
+      "utf8"
+    );
+  } catch (error) {
+    console.error("Error: ", error);
+  }
+};
+
+const writeMatchesToApi = async () => {
+  try {
+    const localFileData = readMatches();
+
+    await axios.put(`https://api.jsonbin.io/v3/b/${BIN_ID}`, localFileData, {
+      headers: {
+        "X-Master-Key": API_KEY,
+        "Content-Type": "application/json",
+      },
+    });
+
+    console.log("JSONBin file updated!");
+  } catch (error) {
+    console.error("Error JSONBin updating: ", error);
+  }
+};
+
 const checkPassword = (req, res, next) => {
   const userPassword = req.headers["x-access-password"];
-  if (!userPassword || userPassword !== PASSWORD) {
+  if (
+    !userPassword ||
+    (userPassword !== PASSWORD && userPassword !== ADMIN_PASSWORD)
+  ) {
+    return res.status(403).json({ error: "Access denied" });
+  }
+  next();
+};
+
+const checkAdminPassword = (req, res, next) => {
+  const userPassword = req.headers["x-access-password"];
+  if (!userPassword || userPassword !== ADMIN_PASSWORD) {
     return res.status(403).json({ error: "Access denied" });
   }
   next();
@@ -129,6 +179,26 @@ app.post("/matches", checkPassword, (req, res) => {
 
   fs.writeFileSync("api/matches.json", JSON.stringify(matchesData, null, 2));
   res.json({ message: "Match created successfully", match: newMatch });
+});
+
+app.post("/getReserveCopy", checkAdminPassword, async (req, res) => {
+  try {
+    await getMatchesFromApi();
+    res.json({ message: "Updated!" });
+  } catch (error) {
+    res.status(500).json({ error: "Error updating!" });
+  }
+});
+
+app.post("/saveToReserveCopy", checkAdminPassword, async (req, res) => {
+  try {
+    await writeMatchesToApi();
+    res.json({ message: "JSONBin file updated!" });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ error: "Error JSONBin updating: ", details: error.message });
+  }
 });
 
 app.listen(PORT, () => {

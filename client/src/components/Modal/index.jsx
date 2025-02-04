@@ -36,8 +36,8 @@ const Modal = ({ match, date, onClose }) => {
     time: match.time,
     homeTeam: match.homeTeam,
     awayTeam: match.awayTeam,
-    homeResult: match.result.home,
-    awayResult: match.result.away,
+    homeResult: match.result?.home || 0,
+    awayResult: match.result?.away || 0,
     video: match.video,
   });
 

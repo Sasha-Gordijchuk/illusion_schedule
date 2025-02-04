@@ -65,7 +65,7 @@ const MatchList = () => {
 
   const handleClosePassModal = () => {
     setShowPassModal(false);
-  }
+  };
 
   useEffect(() => {
     filterMatches();
@@ -77,12 +77,15 @@ const MatchList = () => {
 
   return (
     <div className="match-list">
-      <h2 className="match-list-title" onDoubleClick={() => {setShowPassModal(true)}}>Розклад матчів</h2>
-      {showPassModal && (
-        <PasswordModal
-          onClose={handleClosePassModal}
-        />
-      )}
+      <h2
+        className="match-list-title"
+        onDoubleClick={() => {
+          setShowPassModal(true);
+        }}
+      >
+        Розклад матчів
+      </h2>
+      {showPassModal && <PasswordModal onClose={handleClosePassModal} />}
       {showModal && selectedMatch && (
         <Modal
           match={selectedMatch}
@@ -119,7 +122,7 @@ const MatchList = () => {
             {day.matches.map((match) => (
               <li
                 key={match.id}
-                className="match-item"
+                className={`match-item ${match.result ? "completed" : ""}`}
                 onClick={() => handleMatchClick(match, day.date)}
               >
                 <div className="match-top">

@@ -3,7 +3,7 @@
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background: #0A1931;
+  background: #0a1931;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   color: white;
@@ -45,10 +45,14 @@
   box-shadow: 0 2px 5px rgba(31, 29, 44, 0.3);
   font-weight: bold;
   text-transform: uppercase;
-  border: 1px solid #0A1931;
+  border: 1px solid #0a1931;
   background-color: #a0b1cc;
   cursor: pointer;
   transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.match-item.completed {
+  background-color: #7abc77;
 }
 
 .match-item:hover {
@@ -63,7 +67,7 @@
 }
 
 .match-league {
-  color: #0A1931;
+  color: #0a1931;
   font-weight: bold;
 }
 
@@ -81,7 +85,7 @@
   justify-content: center;
   align-items: center;
   flex-basis: 50%;
-  color: #0A1931;
+  color: #0a1931;
   padding: 16px;
 }
 
@@ -90,14 +94,14 @@
   justify-content: center;
   width: 200px;
   margin: 0 auto;
-  background-color: #0A1931;
+  background-color: #0a1931;
   font-size: 1.5em;
   padding: 16px;
   align-items: center;
 }
 
 .match-time {
-  color: #0A1931;
+  color: #0a1931;
 }
 
 .match-list-filtres {
@@ -107,7 +111,7 @@
 }
 
 .match-list-filtres select {
-  background-color: #0A1931;
+  background-color: #0a1931;
   color: aliceblue;
   font-size: 1em;
   border: 2px solid aliceblue;
